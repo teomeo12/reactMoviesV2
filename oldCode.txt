@@ -1,0 +1,99 @@
+{/*<div className="card-movie">*/
+}
+{/*    <img className="movie-photo" src={this.props.movie.posterUrl } onError={(e)=>{e.currentTarget.src='https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg'}} />*/
+}
+{/*   <div className="card-info">*/
+}
+{/*       <div className ="movie-title"><h1>{this.props.movie.title}</h1></div>*/
+}
+{/*   </div>*/
+}
+
+{/*</div>*/
+}
+
+{/*<div className="card">*/
+}
+{/*   <div className="card__inner">*/
+}
+{/*     <header className="card__header">*/
+}
+{/*       <nav className="card__nav">*/
+}
+{/*         <ul className="list list--nav">*/
+}
+
+{/*             <li><Link className="green-button" to={"/EditMovie/" + this.props.movie._id}>Edit</Link></li>*/
+}
+{/*             <li><Link className="red-button" to={"/DeleteMovie/" + this.props.movie._id}>Delete</Link></li>*/
+}
+
+{/*         </ul>*/
+}
+{/*       </nav>*/
+}
+{/*     </header>*/
+}
+{/*       /!*style={{backgroundImage: 'url(' + this.props.movie.posterUrl +  ')',backgroundRepeat  : 'no-repeat',marginLeft:'10px'}}*!/*/
+}
+
+{/*        <main className="card__body" >*/
+}
+{/*               <div className="card__image" style={{ height: '0px'}}>*/
+}
+{/*                   /!*{this.props.movie.posterUrl !=null ?  <img src={this.props.movie.posterUrl}/> : null   }*!/*/
+}
+{/*                   <img src={this.props.movie.posterUrl } onError={(e)=>{e.currentTarget.src='https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg'}} />*/
+}
+{/*                   /!*<img src={this.props.movie.posterUrl } onError={(e)=>{e.src='./images/broken-1.jpg'}} />*!/*/
+}
+{/*                   /!*<img src={this.props.movie.posterUrl } onError={(e)=>{e.target.onerror=null; e.target.src ='./images/broken-1.jpg'}} />*!/*/
+}
+{/*               </div>*/
+}
+
+
+{/*       <div className="card__info">*/
+}
+{/*           <h1 className="card__title">{this.props.movie.title}</h1>*/
+}
+
+{/*           <p className="card__slug">{this.props.movie.plot}</p>*/
+}
+{/*           <h1 className="card__title">Actors</h1>*/
+}
+{/*           <h5 className="actors">{this.props.movie.actors}</h5>*/
+}
+{/*         /!*<div class="card__rating">*!/*/
+}
+{/*         /!*  8.2*!/*/
+}
+{/*         /!*</div>*!/*/
+}
+{/*       </div>*/
+}
+{/*               <a href='https://www.imdb.com/'><button className="card__btn" value="Watch trailer"  >Watch trailer</button></a>*/
+}
+{/*     </main>*/
+}
+
+{/*     <footer className="card__footer">*/
+}
+{/*       <ul className="list list--info">*/
+}
+{/*           <li>Director | {this.props.movie.director}</li>*/
+}
+{/*         <li>{this.props.movie.year}</li>*/
+}
+{/*         <li>{this.props.movie.runtime} min</li>*/
+}
+{/*         <li>{this.props.movie.genres.join(' | ')}</li>*/
+}
+{/*       </ul>*/
+}
+{/*     </footer>*/
+}
+{/*   </div>*/
+}
+{/* </div>*/
+}

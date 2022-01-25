@@ -1,0 +1,310 @@
+* {
+  max-width: none !important; }
+
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-size: 100%;
+  font-family: 'Roboto', Arial, Verdana, sans-serif;
+  background: #eee;
+  opacity: 0.9;
+  z-index: 1;
+  background-size: cover; }
+
+.movie__container {
+  position: relative;
+  width: 300px;
+  height: 450px; }
+  .movie__container:hover {
+    transform: translateY(0px);
+    transform: scale(1.5);
+    z-index: 1;
+    transition: .5s ease; }
+
+.movie__navbar {
+  position: fixed;
+  top: 15px;
+  width: 90%;
+  display: inline;
+  list-style: none; }
+  .movie__navbar li {
+    display: inline;
+    list-style: none; }
+
+.movie__actors,
+.movie__genres {
+  font-size: 0.8em;
+  width: 90%;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  margin-top: 10px; }
+
+.movie__title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.movie__description {
+  font-size: 0.7em;
+  margin-top: 0.25em;
+  text-align: center;
+  width: 97%; }
+
+.card__footer {
+  position: fixed;
+  bottom: 15px;
+  width: 90%;
+  display: inline;
+  list-style: none;
+  font-size: 0.6em;
+  font-family: 'Quicksand', sans-serif; }
+  .card__footer li {
+    display: inline;
+    list-style: none; }
+
+.movie__img {
+  display: block;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  border-radius: 2em;
+  overflow: hidden;
+  transition: all 400ms ease-in-out; }
+
+.movie__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  opacity: 0;
+  transition: opacity 0.25s; }
+  .movie__overlay:hover > * {
+    transform: translateY(0px);
+    transition: .5s ease; }
+
+.movie__overlay > * {
+  transform: translateY(200px);
+  transition: transform 0.25s; }
+
+.movie__overlay:hover {
+  opacity: 1; }
+
+/*The old css*/
+.body {
+  background-color: #495671; }
+
+#header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid red;
+  align-items: center;
+  justify-content: center; }
+
+.container {
+  width: 1300px;
+  display: flex;
+  margin: 0;
+  padding-top: 10px;
+  border: 2px solid red;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.form-container {
+  width: 100%;
+  display: flex;
+  border: 2px solid red;
+  margin: 0 auto;
+  flex-wrap: wrap; }
+
+.wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.addForm-container {
+  width: 50%;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px; }
+
+.editform-container {
+  width: 40%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.genre {
+  margin-left: 20px; }
+
+.table-container {
+  width: 2000px;
+  margin: 0 auto; }
+
+/* link buttons */
+.form-buttons {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  margin-left: 500px;
+  color: #fff;
+  background-color: black;
+  border-color: #28a745;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+  cursor: pointer; }
+  .form-buttons:hover {
+    color: green;
+    background: #ff4242; }
+
+.formADD-buttons {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: black;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+  cursor: pointer; }
+  .formADD-buttons:hover {
+    color: green;
+    background: #ff4242; }
+
+.redCancel-button {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  margin-left: 400px;
+  color: red;
+  background-color: black;
+  border-color: #28a745;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+  cursor: pointer; }
+  .redCancel-button:hover {
+    color: white;
+    background: #ff4242; }
+
+.green__button,
+.red__button {
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 2em;
+  color: #fff;
+  border-color: #28a745;
+  position: relative;
+  cursor: pointer; }
+
+.green__button {
+  color: green;
+  margin-right: 0px;
+  background-color: black;
+  float: left; }
+  .green__button:hover {
+    color: white;
+    background-color: #107020; }
+
+.red__button {
+  color: red;
+  margin-right: 0px;
+  background-color: black;
+  float: right; }
+  .red__button:hover {
+    background-color: #a01020;
+    color: white; }
+
+.blue-button {
+  color: dimgrey;
+  background-color: black; }
+  .blue-button:hover {
+    color: white;
+    text-decoration: underline; }
+
+/* end of link buttons */
+/* table of movies */
+.table-container table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse; }
+
+.table-container thead {
+  background-color: #aaa;
+  color: #fff;
+  text-align: left;
+  text-transform: capitalize; }
+
+.table-container tbody tr {
+  height: 3em; }
+
+.table-container thead th,
+.table-container tbody td {
+  padding: 5px; }
+
+.table-container tbody tr:nth-child(odd) {
+  background-color: #eee; }
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #ffa; }
+
+.add-new-car {
+  margin-top: 1em; }
+
+.error {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: red; }
+
+#footerLink {
+  margin-top: 20px;
+  color: #D0ECE3;
+  border: thin solid #aaffaa;
+  border-radius: 3px;
+  text-align: center; }
+
+#footerLink:hover {
+  cursor: pointer;
+  color: #4095AA;
+  box-shadow: 2px 2px 2px 2px grey; }
+
+.title_editForm {
+  color: white;
+  margin-right: auto;
+  margin-left: auto; }
+
+/*# sourceMappingURL=App.css.map */
